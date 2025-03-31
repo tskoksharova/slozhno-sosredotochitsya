@@ -35,11 +35,6 @@
   display: flex;
 }
 
-.dark {
-    background-color: black;
-    color: white;
-}
-
 .theme_dark {
   --background-color: #000;
   --text-color: #fff;
