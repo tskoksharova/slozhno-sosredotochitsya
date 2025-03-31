@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+:root.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -31,11 +31,21 @@
   --color-section-heading: #ff0070;
 }
 
-.theme-dark .rec_symbol {
+.theme_dark .rec_symbol {
   display: flex;
 }
 
 .dark {
     background-color: black;
     color: white;
+}
+
+.theme_dark {
+  --background-color: #000;
+  --text-color: #fff;
+}
+
+.theme_dark body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

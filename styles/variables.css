@@ -33,11 +33,4 @@
   --color-page-bg: #000028;
   --color-rec-symbol: #ff0070;
   --color-section-heading: #ff0070;
-
-/*    Контуры для проверки*/
---outline-blue: 1px dashed blue;
---outline-red: 1px dashed red;
---outline-green: 1px dashed green;
---outline-yellow: 1px dashed yellow;
---outline-white: 1px dashed white;
 }

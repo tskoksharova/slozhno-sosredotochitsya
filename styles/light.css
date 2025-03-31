@@ -25,7 +25,7 @@
   }
 }
 
-:root.theme-light {
+:root.theme_light {
   --bg-img: url("../images/cover-image-light.png");
   --color-article-link-focus-visible: #353430;
   --color-article-link-hover: #353430;
@@ -50,8 +50,18 @@
 .theme-light .rec_symbol {
   display: none;
 }
-
+/*
 .light {
     background-color: white;
     color: black;
+}
+*/
+/*.theme_light {
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+.theme_light body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

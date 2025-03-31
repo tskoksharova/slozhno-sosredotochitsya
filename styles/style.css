@@ -22,7 +22,7 @@
   padding: var(--gap-s);
   block-size: 100vh;
   min-block-size: 668px;
-  /*    outline: var(--outline-yellow);*/
+  /*outline: var(--outline-yellow);*/
 }
 
 .decorated-zone {
@@ -194,7 +194,7 @@
   position: relative;
   display: inline-block;
   text-decoration: none;
-  text-shadow: 2px 1px 0 var(--color-article-link-text-shadow);
+  text-shadow: 2px 2px 0 var(--переменнаяЦвета);
 }
 
 .article__link:hover {
@@ -208,6 +208,7 @@
 
 .article__link:focus {
   outline: none;
+  padding: 5px 3px 7px 3px;
 }
 
 .article__link:focus-visible {
@@ -252,7 +253,6 @@
 
 @media (width >=768px) {
   .header {
-      block-size: 100vh;
       min-block-size: 1024px;
       padding: var(--gap-l);
   }
@@ -352,7 +352,6 @@
 @media (width >=1024px) {
 
   .header {
-      block-size: 100vh;
       min-block-size: 768px;
       padding: var(--gap-l);
   }
@@ -399,4 +398,35 @@
       min-block-size: 768px;
       padding: var(--gap-l);
   }
+}
+
+
+/* Тема светлая */
+.theme_light {
+  --color-page-bg: #ffffff;
+  --color-header-heading: black;
+  --color-header-subheading: #444;
+  --color-article-text: #222;
+}
+
+/* Тема темная */
+.theme_dark {
+  --color-page-bg: #121212;
+  --color-header-heading: white;
+  --color-header-subheading: #bbb;
+  --color-article-text: #ddd;
+}
+
+/* Применяем цвета */
+.page {
+  background-color: var(--color-page-bg);
+  color: var(--color-article-text);
+}
+
+.common__title {
+  color: var(--color-header-heading);
+}
+
+.header__subtitle {
+  color: var(--color-header-subheading);
 }
