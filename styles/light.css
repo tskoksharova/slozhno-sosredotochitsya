@@ -50,3 +50,16 @@
 .theme-light .rec_symbol {
   display: none;
 }
+<<<<<<< HEAD
+=======
+
+/*.theme_light {
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+.theme_light body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+>>>>>>> 8ae7012fa8b4740ec974c454b6bf73d08b993b33

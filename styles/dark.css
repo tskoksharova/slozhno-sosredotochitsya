@@ -33,4 +33,18 @@
 
 .theme_dark .rec_symbol {
   display: flex;
+<<<<<<< HEAD
 }
+=======
+}
+
+.theme_dark {
+  --background-color: #000;
+  --text-color: #fff;
+}
+
+.theme_dark body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+>>>>>>> 8ae7012fa8b4740ec974c454b6bf73d08b993b33
