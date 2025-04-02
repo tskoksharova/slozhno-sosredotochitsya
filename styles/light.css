@@ -19,13 +19,13 @@
     --color-page-bg: #fff1f7;
     --color-section-heading: #353430;
   }
+}
 
   .rec_symbol {
     display: none;
   }
-}
 
-:root.theme_light {
+.page.theme_light {
   --bg-img: url("../images/cover-image-light.png");
   --color-article-link-focus-visible: #353430;
   --color-article-link-hover: #353430;
@@ -47,19 +47,6 @@
   --color-section-heading: #353430;
 }
 
-.theme-light .rec_symbol {
+.page.theme_light .rec_symbol {
   display: none;
 }
-<<<<<<< HEAD
-=======
-
-/*.theme_light {
-  --background-color: #fff;
-  --text-color: #000;
-}
-
-.theme_light body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
->>>>>>> 8ae7012fa8b4740ec974c454b6bf73d08b993b33

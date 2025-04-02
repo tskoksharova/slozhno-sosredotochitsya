@@ -414,17 +414,3 @@
   --color-header-subheading: #bbb;
   --color-article-text: #ddd;
 }
-
-/* Применяем цвета */
-.page {
-  background-color: var(--color-page-bg);
-  color: var(--color-article-text);
-}
-
-.common__title {
-  color: var(--color-header-heading);
-}
-
-.header__subtitle {
-  color: var(--color-header-subheading);
-}
