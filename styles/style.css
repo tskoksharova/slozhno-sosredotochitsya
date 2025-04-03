@@ -192,13 +192,11 @@
 
 .article__link {
   position: relative;
-  display: inline-block;
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--переменнаяЦвета);
+  text-shadow: 2px 2px 0 var(--color-header-theme-menu-button-focus-visible-box-shadow);
 }
 
 .article__link:hover {
-  line-height: 1em;
   border-block-end: 1px solid currentColor;
 }
 
@@ -211,7 +209,6 @@
 }
 
 .article__link:focus-visible {
-  line-height: 0.5em;
   outline: 1px solid var(--color-article-link-focus-visible);
 }
 
@@ -396,21 +393,4 @@
       min-block-size: 768px;
       padding: var(--gap-l);
   }
-}
-
-
-/* Тема светлая */
-.theme_light {
-  --color-page-bg: #ffffff;
-  --color-header-heading: black;
-  --color-header-subheading: #444;
-  --color-article-text: #222;
-}
-
-/* Тема темная */
-.theme_dark {
-  --color-page-bg: #121212;
-  --color-header-heading: white;
-  --color-header-subheading: #bbb;
-  --color-article-text: #ddd;
 }
